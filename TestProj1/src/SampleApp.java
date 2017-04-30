@@ -1,4 +1,5 @@
 import com.nt.mod1.ArithmeticOperation;
+import com.nt.mod2.LogicalOperations;
 
 public class SampleApp {
 
@@ -12,6 +13,7 @@ public class SampleApp {
 		int result=operation.sum(100,200);
 		System.out.println("sum:"+result);
 		System.out.println("sub:"+operation.sub(100,200));
-		
+		LogicalOperations lop=new  LogicalOperations();
+		System.out.println("big value:"+lop.findBig(10,20));
 	}//main
 }//class
