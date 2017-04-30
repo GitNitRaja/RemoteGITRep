@@ -8,4 +8,12 @@ public class LogicalOperations {
 		else
 			return a;
 	}
+	
+	public int findSmall(int a,int b){
+		if(a<b)
+			return a;
+		else
+			return b;
+	}
+	
 }
