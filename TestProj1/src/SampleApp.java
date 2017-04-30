@@ -11,6 +11,7 @@ public class SampleApp {
 		ArithmeticOperation operation=new ArithmeticOperation();
 		int result=operation.sum(100,200);
 		System.out.println("sum:"+result);
+		System.out.println("sub:"+operation.sub(100,200));
 		
 	}//main
 }//class
